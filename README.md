@@ -1,3 +1,7 @@
+# Changed from course
+
+Since we're using bootstrap and the image wasn't scaling, changed the image class to "img-fluid" to make the image responsive
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
