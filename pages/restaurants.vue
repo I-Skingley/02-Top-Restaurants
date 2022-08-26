@@ -1,6 +1,8 @@
 <template>
   <div>
     <Nav />
-    Hello this is the restaurant
+    <div class="container">
+      <RestaurantTable />
+    </div>
   </div>
 </template>
