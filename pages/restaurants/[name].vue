@@ -21,7 +21,7 @@ useHead({
 <template>
   <div>
     <NuxtLayout name="custom" v-if="restaurant">
-      <div class="restaurant-container">
+      <div class="restaurant-container overflow-hidden">
         <div class="image-container">
           <!-- Made a change from the course since images didn't scale to half monitor size. 
         Since we're using bootstrap, used img-fluid class for responsive image and removed .image-container image styling -->
@@ -32,7 +32,7 @@ useHead({
           />
         </div>
         <div class="info-container">
-          <h1>{{ restaurant.name }}</h1>
+          <h1 class="display-1 text-uppercase">{{ restaurant.name }}</h1>
           <div class="stats-container">
             <h5>Revenue (in billions)</h5>
             <p>{{ restaurant.revenue }}</p>
@@ -67,10 +67,10 @@ useHead({
 <style scoped>
 .restaurant-container {
   display: flex;
+  height: 60vh;
 }
 .image-container {
-  width: 75%;
-  height: flex;
+  width: 60%;
 }
 
 .restaurant-not-found {
@@ -83,10 +83,10 @@ useHead({
 .info-container {
   padding: 3rem;
   width: 50%;
+  height: 75vh;
+  overflow-y: scroll;
 }
 .info-container h1 {
-  text-transform: uppercase;
-  font-size: 6rem;
   margin-bottom: 3rem;
 }
 .stats-container {
@@ -110,7 +110,6 @@ useHead({
 }
 
 .btn {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
-
 </style>
