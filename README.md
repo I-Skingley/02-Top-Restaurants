@@ -10,6 +10,8 @@ Since we're using bootstrap and the image wasn't scaling, changed the image clas
 
 [Restaurant](/Screenshots/restaurant.png?raw=true)
 
+[Error](/Screenshots/error.png?raw=true)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
