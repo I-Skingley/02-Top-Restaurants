@@ -4,6 +4,7 @@
     <div>
       <img
         src="https://www.iconpacks.net/icons/2/free-sad-face-icon-2691-thumb.png"
+        class="rounded mx-auto d-block"
         alt=""
       />
     </div>
