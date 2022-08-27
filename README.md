@@ -1,7 +1,7 @@
 # Changed from course
 
-Since we're using bootstrap and the image wasn't scaling, changed the image class to "img-fluid" to make the image responsive.
-Added scrollable overflow to the information box on the individual restaurant pages.
+Since we're using bootstrap and the image wasn't scaling, changed the image class to "img-fluid" to make the image responsive.  
+Added scrollable overflow to the information box on the individual restaurant pages.  
 useHead instead of useMeta (deprecated).
 
 # Screenshots
