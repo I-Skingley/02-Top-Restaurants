@@ -2,6 +2,14 @@
 
 Since we're using bootstrap and the image wasn't scaling, changed the image class to "img-fluid" to make the image responsive
 
+# Screenshots
+
+[Splash page](/Screenshots/home.png?raw=true)
+
+[Table](/Screenshots/table.png.png?raw=true)
+
+[Restaurant](/Screenshots/restaurant.png.png?raw=true)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
